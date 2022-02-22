@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body, html {
+    height: 100%;
+    font-family: "Roboto", Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+.logo-box img {
+  display: inline-block;
+  max-width: 300px;
+  border-radius: 50px 50px 50px 50px;
+  padding: 0.5em;
+  border: 3px solid #530505;
+  background-color: white;
+}
+
+.main {
+    padding-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    padding: 1em;
+    margin-top: 20px;
+  }
+
+.search{
+    margin-left: 20px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0.5em;
+  }
+
+form {
+    margin-left: -12px;
+    width: 300px;
+}
+
+.footer {
+    display: grid;
+    margin-top: -10px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.copyrighy{
+    margin-left: 20px;
+    font-size: large;
+}
+
+.social {
+    grid-column: 5 / 6;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px;
+    margin-left: 270px;
+    padding-left: 10px;
+  }
+
+.social img {
+    border-radius: 10px 10px 10px 10px;
+    max-width: 60px;
+}
+
+body {
+  background-image: url('https://cdn.glitch.global/27e3eff4-7a75-422d-81c8-beb97a1efe36/Turquoise%20Dogs%20and%20Paw%20Print%20Cute%20Zoom%20Virtual%20Background.png?v=1645485872951');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#result{
+    margin-top: 20px;
+    border-radius: 40px 40px 40px 40px;
+    max-width: 100%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
